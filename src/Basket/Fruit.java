@@ -1,7 +1,6 @@
-package test;
+package Basket;
 
 class Fruit {
-	
 	int price;
 	int weight;
 	Fruit(){}
@@ -12,17 +11,17 @@ class Fruit {
 }
 
 class Apple extends Fruit{
+	Apple(){}
+
+	Apple(int price, int weight) {
+		this.price = price;
+		this.weight = weight;
+	}
+	
 	@Override
 	public String toString() {
 		// TODO Auto-generated method stub
 		return "Apple";
-	}
-
-	Apple(){}
-
-	Apple(int price, int weight) {
-		super(price, weight);
-		// TODO Auto-generated constructor stub
 	}
 	
 }
@@ -31,8 +30,8 @@ class Banana extends Fruit{
 	Banana(){}
 
 	Banana(int price, int weight) {
-		super(price, weight);
-		// TODO Auto-generated constructor stub
+		this.price = price;
+		this.weight = weight;
 	}
 	@Override
 	public String toString() {
