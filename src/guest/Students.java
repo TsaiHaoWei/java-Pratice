@@ -12,7 +12,7 @@ class Student{
 			this.number = number;
 		}
 		
-		
+
 		public int hashCode() {
 			int hash =7;
 			hash = 47*hash + Objects.hashCode(this.name);
