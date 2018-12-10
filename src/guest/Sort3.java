@@ -15,7 +15,7 @@ class Account implements Comparable<Account>{
 	@Override
 	public String toString() {
 		// 
-		return String.format("Account2(%s, %s, %d)", name, number, balance);
+		return String.format("Account(%s %s %d)  ", name, number, balance);
 	}
 	
 	public Account(String name, String number, int balance) {
