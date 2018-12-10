@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;ForEach.java&apos; to &apos;Other/src/guest&apos;&#x0D;&#x0A;- Original project: &apos;Other&apos;&#x0D;&#x0A;- Destination element: &apos;Other/src/guest&apos;&#x0D;&#x0A;- Original element: &apos;ForEach.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;guest" element1="/src&lt;{ForEach.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1544012067170" units="1" version="1.0"/>
+</session>

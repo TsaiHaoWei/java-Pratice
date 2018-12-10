@@ -1,0 +1,44 @@
+package guest;
+
+import java.util.Arrays;
+import java.util.*;
+
+class Account implements Comparable<Account>{
+	private String  name;
+	private String number;
+	private int balance;
+	@Override
+	public int compareTo(Account o) {
+		// TODO Auto-generated method stub
+		return this.balance - o.balance;
+	}
+	@Override
+	public String toString() {
+		// 
+		return String.format("Account(%s %s %d) ", name, number, balance);
+	}
+	
+	public Account(String name, String number, int balance) {
+		
+		this.name = name;
+		this.number = number;
+		this.balance = balance;
+	}
+	
+	
+	
+}
+
+public class Sort3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List<Account>accounts = Arrays.asList(
+				new Account("Justin", "X1234", 1000),
+				new Account("Monica", "X5678", 500),
+				new Account("Irene", "X2468", 200));
+		Collections.sort(accounts);
+		System.out.println(accounts);
+	}
+
+}

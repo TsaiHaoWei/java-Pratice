@@ -1,0 +1,20 @@
+package Lambda;
+
+import java.util.Arrays;
+
+public class Lambda {
+	public static void main (String[] args) 
+	{
+		String[] names = {"Justin", "caterpillar", "Bush"};
+		Arrays.sort(names, StringOrder::byLength);
+		for(String name:names)
+			System.out.printf("%s ",name);
+			System.out.println();
+		
+		Arrays.sort(names, StringOrder::byLexicography);
+		StringOrder.Stringprint(names);
+		
+		Arrays.sort(names, StringOrder::byLexicographylgnaoreCase);
+		StringOrder.Stringprint(names);
+	}
+}

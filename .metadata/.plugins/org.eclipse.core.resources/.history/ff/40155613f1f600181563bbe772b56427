@@ -1,0 +1,12 @@
+package guest;
+import java.util.*;
+import static java.lang.System.out;
+
+public class Guest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List<>
+	}
+
+}

@@ -1,0 +1,25 @@
+import java.util.ArrayDeque;
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.List;
+
+public class ForEach {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List names = Arrays.asList("Justin", "Monica", "Irene");
+		forEach(names);System.out.println();
+		forEach(new HashSet(names));System.out.println();
+		forEach(new ArrayDeque(names));System.out.println();
+	}
+
+	private static void  forEach(Iterable iterable) {
+		 
+		for(Object o :iterable)
+		{
+			System.out.print(o+" ");
+		}
+		
+	}
+
+}
