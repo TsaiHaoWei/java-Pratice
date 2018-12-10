@@ -16,11 +16,18 @@ public class Demo {
 			add(student, scanner,dao);
 			 break;
 		case 2:
+			get(dao);
 			break;
 		default:
 			break;
 		}
 		System.out.println("quit");
+	}
+
+	private static void get(StudentDAO dao) {
+		// TODO Auto-generated method stub
+		List<Student> resultList = dao.getData();
+		resultList.iterator().toString();
 	}
 
 	private static void add(Student student,Scanner scanner, StudentDAO dao) {
