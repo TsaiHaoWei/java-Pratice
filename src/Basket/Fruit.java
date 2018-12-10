@@ -1,0 +1,43 @@
+package Basket;
+
+class Fruit {
+	int price;
+	int weight;
+	Fruit(){}
+	Fruit(int price, int weight){
+		this.price = price;
+		this.weight = weight;
+	}
+}
+
+class Apple extends Fruit{
+	Apple(){}
+
+	Apple(int price, int weight) {
+		this.price = price;
+		this.weight = weight;
+	}
+	
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return "Apple";
+	}
+	
+}
+
+class Banana extends Fruit{
+	Banana(){}
+
+	Banana(int price, int weight) {
+		this.price = price;
+		this.weight = weight;
+	}
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return "Banana";
+	}
+
+}
+
